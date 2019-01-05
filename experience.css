@@ -57,7 +57,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/resumecopy.jpg') no-repeat top center ;
+  background: url('images/seaport.jpeg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -94,11 +94,12 @@ header .profile-image:hover {
   padding: 20px 40px 40px;
   max-width: 500px;
   text-align: left;
-  background: gray;
-  color: white;
+  background: white;
+  color: brown;
   border-bottom: 4px solid #ccc;
   border-radius: 6px;
   transition: all .5s;
+  background: url('images/wall.jpg') no-repeat top center ;
 }
 .card:hover {
   border-color: #ff99ff;

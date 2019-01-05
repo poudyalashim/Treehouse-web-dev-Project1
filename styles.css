@@ -67,10 +67,10 @@ header {
 }
 header .profile-image {
   margin-top: 50px;
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  border: 3px solid white;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px 20px;
+  border: 1px solid pink;
   transition: all .5s;
 }
 header .profile-image:hover {
@@ -90,14 +90,18 @@ header .profile-image:hover {
 }
 .card {
   margin: 30px;
-  padding: 20px 40px 40px;
+  padding: 10px 20px 20px;
   max-width: 500px;
-  text-align: left;
+  text-align: center;
   background: black;
-  color: white;
+  color: black;
   border-bottom: 4px solid #ccc;
-  border-radius: 6px;
+  border-radius: 60px 30px;
+  border: 2px solid red;
   transition: all .5s;
+  background: url('images/Seaport.jpeg') no-repeat top center;
+
+
 }
 .card:hover {
   border-color: #ff99ff;
